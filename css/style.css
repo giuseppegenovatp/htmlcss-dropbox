@@ -1,0 +1,66 @@
+/* FONT IMPORT  */
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* FONT IMPORT */
+
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Host Grotesk", serif;
+}
+ 
+/* COMMON  */
+    .link-float {
+        display: flex;
+        gap: 40px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .primary-link-button {
+        background-color: #0061fe;
+        padding: 10px 20px;
+    }
+/* /COMMON  */
+
+header {
+    background-color:#ffffff;
+}
+
+#logo {
+    display: inline-block;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu-link {
+    display: flex;
+    align-items: center;
+}
+
+nav .menu-link ul li a, nav .link-menu-user li a {
+    color:#000000;
+    font-size: 16px;
+}
+
+nav .menu-link ul {
+    margin-left: 40px;
+}
+
+nav ul.link-menu-user {
+    margin-right: 25px;
+}
+
