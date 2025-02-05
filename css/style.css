@@ -23,15 +23,30 @@
 
     a {
         text-decoration: none;
+        align-self: start;
     }
 
-    nav ul li a.primary-link-button {
+    a.primary-link-button {
         background-color: #0061fe;
         padding: 10px 20px;
         color: white;
     }
-    
+
+    .big-container {
+        width: 100%;
+        margin: 0 auto;
+        background-color:#b4d0e6;
+    }
+
+    .jumbo-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
 /* /COMMON  */
+
+
 
 header {
     background-color:#ffffff;
@@ -66,3 +81,50 @@ nav ul.link-menu-user {
     margin-right: 25px;
 }
 
+
+
+/* JUMBO STYLE */
+
+.jumbo-container h1 {
+    font-size: 50px;
+    padding-top:90px ;
+    font-weight: 900;
+}
+
+.jumbo-container p, a, i {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.arrow-down {
+    font-size: 30px;
+}
+
+.jumbo-description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+/* /JUMBO STYLE */
+
+
+/* DEBUG */
+
+.debug {
+    border: 1px solid black;
+}
+
+.debug * {
+    border: 1px solid black;
+}
+
+.debug img {
+    height: 400px;
+    width: 700px;
+}
