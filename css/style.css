@@ -25,10 +25,12 @@
         text-decoration: none;
     }
 
-    .primary-link-button {
+    nav ul li a.primary-link-button {
         background-color: #0061fe;
         padding: 10px 20px;
+        color: white;
     }
+    
 /* /COMMON  */
 
 header {
