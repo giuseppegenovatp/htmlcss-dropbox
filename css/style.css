@@ -26,11 +26,16 @@
         align-self: start;
     }
 
-    a.primary-link-button {
+    button {
+        all: unset;
+    }
+
+    .primary-link-button {
         background-color: #0061fe;
         padding: 10px 20px;
         color: white;
     }
+    
 
     .big-container {
         width: 100%;
@@ -47,7 +52,6 @@
         width: 60%;
         margin: 0 auto;
         padding-top: 70px;
-        background-color: lightcoral;
     }
 
 
@@ -93,7 +97,7 @@ nav ul.link-menu-user {
 /* JUMBO STYLE */
 
 .medium-container h1 {
-    font-size: 70px;
+    font-size: 90px;
     padding-top:90px ;
     font-weight: 900;
 }
@@ -130,11 +134,47 @@ nav ul.link-menu-user {
 
     .card {
         width: calc((100% - 100px) / 3);
+        background-color: white;
+        align-items: flex-start;
+    }
+
+    .card-btn {
+        padding:16px;
+        margin: 0 auto;
+        background-color: #0061fe;
+        color: white;
     }
 
     .card-large {
         flex: 2;
     }
+
+    .content_card {
+        flex-direction: column;
+        border: 1px solid #d0cfd4;
+        padding: 20px;
+    }
+
+    .card_title {
+        text-align: center;
+        border: 1px solid #d0cfd4;
+    }
+
+    .content_card ul {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .content_card ul > li > i  {
+        padding-right: 10px;
+    }
+
+    .footer-card {
+        padding-top:35px;
+    }
+
+
+
 
 /* /CARD PLANE STYLE */
 
