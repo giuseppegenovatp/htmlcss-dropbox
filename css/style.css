@@ -267,7 +267,13 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
     margin: 15px 20px;
 }
 
+.large_text_card {
+    width: calc(100% / 2);
+}
 
+.large_text_card p {
+    padding-top:30px;
+}
 
 
 
