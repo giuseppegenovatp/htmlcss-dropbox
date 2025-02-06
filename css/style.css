@@ -53,6 +53,11 @@
         margin: 0 auto;
         margin-top: 100px;
     }
+
+    .img {
+        display: block;
+        max-width: 100%;
+    }
 /* /COMMON  */
 
 
@@ -123,6 +128,25 @@ nav ul.link-menu-user {
         max-width: 100%;
         top: 9%;
         left: 100%;
+        width: 100%;
+}
+
+.img {
+    flex: 3;
+}
+
+.text-box {
+    flex:1;
+    padding: 0 70px;
+    justify-content: center;
+}
+
+.text-box p {
+    padding: 10px 0;
+}
+
+.text-box > button.primary-link-button {
+    margin-top: 20px;
 }
 
 
@@ -216,29 +240,22 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 
 }
 
-.img-box {
+
+/* START GRID */
+.grid-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.grid-content {
+    width: calc((100% - 100px) / 3); }
+
+.grid-img img {
     display: block;
     width: 100%;
 }
-
-.img {
-    flex: 3;
-}
-
-.text-box {
-    flex:1;
-    padding: 0 70px;
-    justify-content: center;
-}
-
-.text-box p {
-    padding: 10px 0;
-}
-
-.text-box > button.primary-link-button {
-    margin-top: 20px;
-}
-
 
 
 
@@ -252,9 +269,4 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 
 .debug * {
     border: 1px solid black;
-}
-
-.debug img {
-    height: 400px;
-    width: 700px;
 }
