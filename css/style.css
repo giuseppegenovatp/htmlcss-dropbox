@@ -50,11 +50,10 @@
 
     .small-container {
         width: 60%;
-        margin: 0 auto;
-        margin-top: 100px;
+        margin: 100px auto;
     }
 
-    .img {
+    img {
         display: block;
         max-width: 100%;
     }
@@ -131,24 +130,6 @@ nav ul.link-menu-user {
         width: 100%;
 }
 
-.img {
-    flex: 3;
-}
-
-.text-box {
-    flex:1;
-    padding: 0 70px;
-    justify-content: center;
-}
-
-.text-box p {
-    padding: 10px 0;
-}
-
-.text-box > button.primary-link-button {
-    margin-top: 20px;
-}
-
 
 /* /JUMBO STYLE */
 
@@ -223,8 +204,9 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: calc((100% - 100px) / 3);
-    height: 200px;
 }
 
 .large-card {
@@ -233,8 +215,29 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 
 
 
+
+
+
+/* PARTENER SECTION */
+.img {
+    flex: 3;
+}
+
+.text-box {
+    flex:1;
+    padding: 0 70px;
+    justify-content: center;
+}
+
+.text-box p {
+    padding: 10px 0;
+}
+
+.text-box > button.primary-link-button {
+    margin-top: 20px;
+}
+
 .partner-box {
-    background-color: red;
     display: flex;
     align-items: center;
 
@@ -258,7 +261,56 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 }
 
 
+/* FOOTER */
 
+footer.big-container {
+    background-color:#000000 ;
+    color: white;
+}
+
+.medium-container.footer-container {
+    padding-top: 50px;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-menu {
+    width: calc((100% - 200px) / 5);
+}
+
+.footer-menu li:first-child {
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-menu li {
+    padding-top: 15px;
+}
+
+.footer-menu ul li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.option_lenguage span {
+    padding: 50px 0px;
+    display: block;
+}
+
+.earth, arrow-up {
+    padding-left: 50px 0px;
+}
+
+.option_lenguage::before {
+        content: "";
+        display: block;
+        width: 130px; /* Larghezza del bordo */
+        height: 1px; /* Spessore del bordo */
+        background-color: white;
+}
 
 /* DEBUG */
 
