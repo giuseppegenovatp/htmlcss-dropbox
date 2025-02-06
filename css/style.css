@@ -192,6 +192,7 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 
 /* /CARD PLANE STYLE */
 
+
 .title {
     font-size: 40px;
     margin-bottom: 70px;
@@ -216,11 +217,56 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 
 .card_title {
     text-align: center;
+    border-bottom: 1px solid #d0cfd4;
+    padding: 10px 0px;
 }
 
 .card_text {
-    padding: 40px 20px;
+    margin:40px 20px;
 }
+
+.card_text ul {
+    margin:40px 0px;
+    list-style-position: inside;
+}
+
+.card_text ul li {
+    padding:10px 0px;
+    display: flex;
+}
+
+.punti_salienti {
+    margin:40px 20px;
+}
+
+.punti_salienti li:first-child {
+    padding-bottom: 20px;
+}
+
+.punti_salienti li {
+    padding-bottom: 15px;
+}
+
+.card {
+    border: 1px solid #d0cfd4;
+}
+
+.card_buy {
+    display: flex;
+    flex-direction: column;
+    margin:40px 20px;
+}
+
+.card_buy > .primary-link-button{
+    margin-bottom: 20px;
+}
+
+.large-card-contact {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 
 
 
