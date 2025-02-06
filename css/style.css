@@ -34,6 +34,7 @@
         background-color: #0061fe;
         padding: 10px 20px;
         color: white;
+        text-align: center;
     }
     
 
@@ -211,6 +212,14 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
 
 .large-card {
     flex: 1;
+}
+
+.card_title {
+    text-align: center;
+}
+
+.card_text {
+    padding: 40px 20px;
 }
 
 
