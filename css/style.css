@@ -15,6 +15,7 @@
     .link-float {
         display: flex;
         gap: 40px;
+        align-items: center;
     }
 
     ul {
@@ -51,7 +52,7 @@
 
     .small-container {
         width: 60%;
-        margin: 100px auto;
+        margin: 140px auto;
     }
 
     img {
@@ -63,7 +64,11 @@
 
 
 header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     background-color:#ffffff;
+    box-shadow: 1px -2px 20px #0a0a0a;
 }
 
 #logo {
@@ -82,18 +87,42 @@ nav .menu-link {
     align-items: center;
 }
 
-nav .menu-link ul li a, nav .link-menu-user li a {
+nav .menu-link ul li {
+    padding: 21px;
+}
+
+nav .menu-link ul li a {
+    display: block;
+}
+
+nav .menu-link ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+.menu-link ul li a {
     color:#000000;
     font-size: 16px;
+    display: block;
 }
 
 nav .menu-link ul {
     margin-left: 40px;
 }
 
-nav ul.link-menu-user {
-    margin-right: 25px;
+.menu-user li a:last-child {
+    color:#000000;
+    font-size: 16px;
 }
+
+.menu-user li {
+    padding: 21px;
+}
+
+.menu-user li:hover {
+    border-bottom: 2px solid black;
+}
+
+
 
 
 
@@ -101,7 +130,7 @@ nav ul.link-menu-user {
 
 .medium-container h1 {
     font-size: 90px;
-    padding-top:90px ;
+    padding-top:150px ;
     font-weight: 900;
 }
 
