@@ -261,13 +261,11 @@ PER RIPRISTINARE PRECEDENDE PRENDERE IL CODICE COMMENTATO SOTTO
     margin-bottom: 20px;
 }
 
-.large-card-contact {
+.large-card-container {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    justify-content: space-between;
+    margin: 15px 20px;
 }
-
-
 
 
 
